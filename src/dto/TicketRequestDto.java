@@ -2,7 +2,7 @@ package dto;
 
 import models.VehicleType;
 
-public class GenerateTicketRequestDto {
+public class TicketRequestDto {
 	
 	private String vehicleNumber;
 	
@@ -12,7 +12,7 @@ public class GenerateTicketRequestDto {
 
 	
 	
-	public GenerateTicketRequestDto(String vehicleNumber, VehicleType vehicleType, int gateId) {
+	public TicketRequestDto(String vehicleNumber, VehicleType vehicleType, int gateId) {
 		super();
 		this.vehicleNumber = vehicleNumber;
 		this.vehicleType = vehicleType;

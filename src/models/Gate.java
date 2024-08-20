@@ -10,6 +10,13 @@ public class Gate extends BaseEntity{
 	
 	private int gateNo;
 
+	
+	public Gate(int gateNo, GateType gateType) {
+		super();
+		this.gateType = gateType;
+		this.gateNo = gateNo;
+	}
+
 	public Operator getOperator() {
 		return operator;
 	}
